@@ -1,357 +1,252 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Marcos Alves :: Portfólio</title>
 
-    <!--=============== UNICONS ===============-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- font google -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="">
-
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    
-    <title>Marcos Alves - Portfólio</title>
-    
+<!-- css -->
+<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <!--=============== HEADER ===============-->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">Marcos Alves</a>
+	<!-- header -->
+	<header>
+		<div id="header">
+<!--
+			<a href="#" class="logo-header">
+				<img src="images/logo.png" alt="Logo Marcos Alves" width="80">
+			</a>
+-->
+			<a href="#" class="logo">Marcos Alves</a>
+			<div class="fa-solid fa-bars" id="navbar-icon"></div>
+			<ul class="navbar-header">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">Sobre Mim</a></li>
+				<li><a href="#portfolio">Portfólio</a></li>
+				<li><a href="#services">Serviços</a></li>
+				<li><a href="#contact">Fale Comigo</a></li>
+			</ul>
+			<a href="curriculo/Currículo Marcos Alves.pdf" class="btn-header" download>Currículo</a>
+		</div>
+	</header>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">
-                            <i class="uil uil-estate nav__icon"></i> Home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#sobre-mim" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i> Sobre Mim
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class="uil uil-file-alt nav__icon"></i> Skills
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#servicos" class="nav__link">
-                            <i class="uil uil-briefcase-alt nav__icon"></i> Serviços
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-scenery nav__icon"></i> Portfólio
-                        </a>
-                    </li><li class="nav__item">
-                        <a href="#contato" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i> Contato
-                        </a>
-                    </li>
-                </ul>
-                <i class="uil uil-times nav__close" id="nav-close"></i>
-            </div>
+	<!-- home -->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h1>Marcos Alves</h1>
+			<h5>Engenheiro de Software <span> da Bahia - Brasil </span></h5>
+			<p>Sou estudante de Engenharia de Software na UCSAL, atualmente trabalho oferecendo aplicações web, mobile e desktop.</p>
+			<div class="home-social-media">
+				<a href="https://www.linkedin.com/in/marcosalvs" target="_blank">
+					<i class="fa-brands fa-linkedin-in"></i></a>
+				<a href="https://github.com/omarcosalves" target="_blank"><i class="fa-brands fa-github"></i></a>
+				<a href="https://www.instagram.com/marcos.alvves" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+			<a href="#about" class="btn">Sobre mim</a>
+		</div>
+		<div class="home-image">
+			<img src="images/Background.png" alt="">
+		</div>
+	</section>
 
-            <div class="nav_btns">
-                <div class="nav__toggle" id="nav_toggle">
-                    <i class="uil uil-apps"></i>
-                </div>
-            </div>
-        </nav> 
-    </header>
-    <main class="main">
+<!-- services -->
+	<section class="services" id="services">
+		<div class="services-itens">
+			<div class="service-item">
+				<div class="service-item-image">
+					<img src="images/html5.png" alt="">
+				</div>
+				<h3>HTML</h3>
+			<!--
+				<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Consequatur nisi debitis est optio amet sequi vel et dolores! Maiores tempore beatae debitis est accusamus ab soluta, perferendis, natus pariatur itaque!</p>
+			-->
+			</div>
+			<div class="service-item">
+				<div class="service-item-image">
+					<img src="images/css3.png" alt="">
+				</div>
+				<h3>CSS</h3>
+			<!--
+				<p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Eligendi necessitatibus deleniti eius, accusamus cumque id sunt qui, fuga nobis quidem iusto obcaecati. Quidem ipsa iste, soluta nobis atque similique laudantium.</p>
+			-->
+			</div>
+			<div class="service-item">
+				<div class="service-item-image">
+					<img src="images/js.png" alt="">
+				</div>
+				<h3>JavaScript</h3>
+			<!--
+				<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Aut accusantium, velit vitae voluptatum veritatis nisi totam tenetur laboriosam amet aliquid animi, eligendi blanditiis odio natus rem suscipit. Voluptates, corrupti architecto.</p>
+			-->
+			</div>
+			<div class="service-item">
+				<div class="service-item-image">
+					<img src="images/php.png" alt="">
+				</div>
+				<h3>PHP</h3>
+			<!--
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, harum! Officiis eos ipsum magni amet, porro eligendi, at! Voluptatibus non minima enim accusantium, sunt, vel architecto necessitatibus officiis doloribus id.</p>
+			-->
+			</div>
+			<div class="service-item">
+				<div class="service-item-image">
+					<img src="images/java.png" alt="">
+				</div>
+				<h3>Java</h3>
+			<!--
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, harum! Officiis eos ipsum magni amet, porro eligendi, at! Voluptatibus non minima enim accusantium, sunt, vel architecto necessitatibus officiis doloribus id.</p>
+			-->
+			</div>
+			<div class="service-item">
+				<div class="service-item-image">
+					<img src="images/nodejs.png" alt="">
+				</div>
+				<h3>NodeJS</h3>
+			<!--	
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, harum! Officiis eos ipsum magni amet, porro eligendi, at! Voluptatibus non minima enim accusantium, sunt, vel architecto necessitatibus officiis doloribus id.</p>
+			-->
+			</div>
+			<div class="service-item">
+				<div class="service-item-image">
+					<img src="images/figma.png" alt="">
+				</div>
+				<h3>Figma</h3>
+			<!--
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, harum! Officiis eos ipsum magni amet, porro eligendi, at! Voluptatibus non minima enim accusantium, sunt, vel architecto necessitatibus officiis doloribus id.</p>
+			-->
+			</div>
+			<div class="service-item">
+				<div class="service-item-image">
+					<img src="images/mysql.png" alt="">
+				</div>
+				<h3>MySQL</h3>
+			<!--
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, harum! Officiis eos ipsum magni amet, porro eligendi, at! Voluptatibus non minima enim accusantium, sunt, vel architecto necessitatibus officiis doloribus id.</p>
+			-->
+			</div>
+		</div>
+	</section>
 
-    </main>
-    <!--=============== FOOTER ===============-->
+	<!-- sobre mim -->
+	<section class="about" id="about">
+		<div class="about-image">
+			<img src="images/about.png" alt="">
+		</div>
+		<div class="about-text">
+			<h3>Eu sou Engenheiro de Software</h3>
+			<p>Possuo uma formação técnica em Desenvolvimento de Sistemas pelo SENAI - BA e atualmente estou cursando Engenharia de Software na UCSAL.</p> 
+			<p>Conhecimentos sólidos em: HTML5, CSS3, JavaScript, PHP, Java, NodeJS, Figma e MySQL.</p>
+			<p>Versionamento de código com Git/Github.</p>
+			<a href="https://github.com/omarcosalves" class="btn" target="_blank">Meu Github</a>
+		</div>
+	</section>
 
+	<!-- portfolio -->
+	<section class="portfolio" id="portfolio">
+		<div class="portfolio-head">
+			<h3>Meus Trabalhos</h3>
+			<p>Estes são alguns dos meus projetos pessoais e profissionais</p>
+		</div>
+		<div class="portfolio-content">
+			<div class="col">
+				<a href="https://www.figma.com/proto/ioUvT3LU9PJS5VLQkJaIAg/e-commerce?node-id=1-2&starting-point-node-id=1%3A2" target="_blank">
+				<img src="images/tazie.png" alt="">
+				<!--<img src="images/ecommerce2.png" alt="">
+				<img src="images/ecommerce3.png" alt="">-->
+				<div class="portfolio-content-text">
+					<h3>E-commerce</h3>
+					<h5>E-commerce da Tazie</h5>
+				</div>
+				</a>
+			</div>
+		<!--
+			<div class="col">
+				<img src="images/ecommerce2.png" alt="">
+				<div class="portfolio-content-text">
+					<h3>E-commerce</h3>
+					<h5>E-commerce da Tazie</h5>
+				</div>
+			</div>
+			<div class="col">
+				<img src="images/ecommerce3.png" alt="">
+				<div class="portfolio-content-text">
+					<h3>E-commerce</h3>
+					<h5>E-commerce da Tazie</h5>
+				</div>
+			</div>
+		-->
+			<div class="col">
+				<a href="https://www.figma.com/proto/qtngnITQz8fWvONLHNBnQJ/Hamburgueria?node-id=1-3" target="_blank">
+				<img src="images/hamburgueria.png" alt="">
+				<div class="portfolio-content-text">
+					<h3>Hamburgueria</h3>
+					<h5>GG - Burguer</h5>
+				</div>
+				</a>
+			</div>
+			<div class="col">
+				<a href="https://www.figma.com/proto/DrJiL0ThNBKkFoJ1tqN079/Cl%C3%ADnica?node-id=1-2" target="_blank">
+				<img src="images/clinica.png" alt="">
+				<div class="portfolio-content-text">
+					<h3>Clínica</h3>
+					<h5>Clínica de Saúde da Mulher</h5>
+				</div>
+				</a>
+			</div>
+			<div class="col">
+				<a href="https://www.figma.com/proto/uyhFfbOq9lamAiTVlfHJc8/Projeto---A%C3%A7a%C3%AD?node-id=0-1" target="_blank">
+				<img src="images/acaiteria.png" alt="">
+				<div class="portfolio-content-text">
+					<h3>Açaiteria</h3>
+					<h5>La Casa de Açaí</h5>
+				</div>
+				</a>
+			</div>
+			<!-- <div class="col">
+				<img src="images/portfolio.png" alt="">
+				<div class="portfolio-content-text">
+					<h3>Portfólio</h3>
+					<h5>Portfólio do Marcos</h5>
+				</div>
+			</div>-->
+		</div>
+	</section>
 
-    <!--=============== SCROLL TOP ===============-->
+	<!-- contato -->
+	<section class="contact" id="contact">
+		<div class="contact-container">
+			<div class="contact-text">
+				<h3>Fale Comigo</h3>
+				<p>Tem um projeto em mente? Vamos por em prática juntos!</p>
+			</div>
+			<div class="form">
+				<form action="php/submit.php" method="post" name="form">
+					<input type="text" name="name" placeholder="Digite seu nome" required>
+					<input type="text" name="email" placeholder="Digite seu e-mail" required>
+					<input type="text" name="mensage" placeholder="Digite sua mensagem" required>
+					<input type="submit" name="submit" value="ENVIAR MENSAGEM">
+				</form>
+			</div>
+		</div>
+	</section>
 
+	<!-- footer -->
+	<footer>
+		<p>Todos os direitos reservados &copy; 2024</p>
+	</footer>
 
-    <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+	<!-- js scrollreveal -->
+	<script src="https://unpkg.com/scrollreveal"></script>
 
-
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
-    <!--=============== HOME ===============-->
-    <section class="home section" id="home">
-        <div class="home__container container grid">
-            <div class="home__content grid">
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
-                        <i class="uil uil-linkedin-alt"></i>
-                    </a>
-                    <a href="https://dribbble.com/" target="_blank" class="home__social-icon">
-                        <i class="uil uil-dribbble"></i>
-                    </a>
-                    <a href="https://github.com/" target="_blank" class="home__social-icon">
-                        <i class="uil uil-github-alt"></i>
-                    </a>
-                </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            <image class="home__blob-img" x='12' y='18' xlink:href="assets/img/perfil.png"/>
-                        </g>
-                    </svg>
-                </div>
-                
-                <div class="home__data">
-                    <h1 class="home__title">Eu sou o Marcos</h1>
-                    <h3 class="home__subtitle">Software Engineer</h3>
-                    <p class="home__description">Breve descrição aqui.</p>
-                    <a href="#contato" class="button button--flex">
-                        Contato <i class="uil uil-message button__icon"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="home__scroll">
-                <a href="#sobre-mim" class="home__scroll-button button--flex">
-                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                    <span class="home__scroll-name">Rolar para baixo</span>
-                    <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!--=============== ABOUT ===============-->
-    <section class="about section" id="about">
-        <h2 class="section__title">Sobre Mim</h2>
-        <span class="section__subtitle">Minha introdução</span>
-     
-        <div class="about__container container grid">
-            <img src="assets/img/about.jpg" alt="" class="about__img">
-        
-            <div class="about__data">
-                <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cupiditate, explicabo eos eius quis neque velit, est et, nihil doloribus recusandae esse possimus magnam quo! Officia voluptates cum quae sed.</p>
-
-                <div class="about__buttons">
-                    <a download="" href="assets/pdf/CV_Marcos.pdf" class="button button--flex">
-                        CV download<i class="uil uil-download-alt button__icon"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!--=============== SKILLS ===============-->
-    <section class="skills section" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <span class="section__subtitle">Meu nível técnico</span>
-
-        <div class="skills__container container grid">
-            <div>
-                <!--=============== SKILLS 1 ===============-->
-                <div class="skills__content skills__open">
-                    <div class="skills__header">
-                        <i class="uil uil-brackets-curly skills__icon"></i>
-                        
-                        <div>
-                            <h1 class="skills__title">Frontend developer</h1>
-                            <span class="skills__subtitle">Mais de 2 anos</span>
-                        </div>
-                    
-                        <i class="uil uil-angle-down skills__arrow"></i>
-                    </div>
-                    
-                    <div class="skills__list grid">
-                        <div class="skills data">
-                            <div class="skills__titles">
-                                <h3 class="skills name">HTML</h3>
-                                <span class="skills__number">90%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__html"></span>
-                            </div>
-                        </div>
-                        <div class="skills data">
-                            <div class="skills__titles">
-                                <h3 class="skills name">CSS</h3>
-                                <span class="skills__number">90%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__css"></span>
-                            </div>
-                        </div>
-                        <div class="skills data">
-                            <div class="skills__titles">
-                                <h3 class="skills name">JavaScript</h3>
-                                <span class="skills__number">70%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__js"></span>
-                            </div>
-                        </div>
-                        <div class="skills data">
-                            <div class="skills__titles">
-                                <h3 class="skills name">React</h3>
-                                <span class="skills__number">80%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__react"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--=============== SKILLS 2 ===============-->
-                <div class="skills__content skills__close">
-                    <div class="skills__header">
-                        <i class="uil uil-server-network skills__icon"></i>
-                        
-                        <div>
-                            <h1 class="skills__title">Backend developer</h1>
-                            <span class="skills__subtitle">Mais de 2 anos</span>
-                        </div>
-                    
-                        <i class="uil uil-angle-down skills__arrow"></i>
-                    </div>
-                    
-                    <div class="skills__list grid">
-                        <div class="skills data">
-                            <div class="skills__titles">
-                                <h3 class="skills name">PHP</h3>
-                                <span class="skills__number">80%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__php"></span>
-                            </div>
-                        </div>
-                        <div class="skills data">
-                            <div class="skills__titles">
-                                <h3 class="skills name">Java</h3>
-                                <span class="skills__number">90%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__java"></span>
-                            </div>
-                        </div>
-                        <div class="skills data">
-                            <div class="skills__titles">
-                                <h3 class="skills name">NodeJs</h3>
-                                <span class="skills__number">70%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__node"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <!--=============== SKILLS 3 ===============-->
-                <div class="skills__content skills__close">
-                    <div class="skills__header">
-                        <i class="uil uil-swatchbook skills__icon"></i>
-                        
-                        <div>
-                            <h1 class="skills__title">Outras tecnologias</h1>
-                        </div>
-                    
-                        <i class="uil uil-angle-down skills__arrow"></i>
-                    </div>
-                    
-                    <div class="skills__list grid">
-                        <div class="skills data">
-                            <div class="skills__titles">
-                                <h3 class="skills name">Figma</h3>
-                                <span class="skills__number">90%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__figma"></span>
-                            </div>
-                        </div>
-                        <div class="skills data">
-                            <div class="skills__titles">
-                                <h3 class="skills name">Git/GitHub</h3>
-                                <span class="skills__number">90%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__git"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--=============== QUALIFICATION ===============-->
-    <section class="qualification section">
-        <h2 class="section title">Qualificação</h2>
-        <span class="section__subtitle">Minha formação acadêmica</span>
-        <div class="qualification__container container">
-            <div class="qualification__tabs">
-                <div class="qualification__button button--flex qualification__active" data-target='#education'>
-                    <i class="uil uil-graduation-cap qualification__icon"></i>
-                    Educação
-                </div>
-            </div>
-
-            <div class="qualification__sections">
-                <!--=============== QUALIFICATION CONTENT 1 ===============-->
-                <div class="qualification__content qualification__active" data-content id="education">
-                    <!--=============== QUALIFICATION 1 ===============-->
-                    <div class="qualification__data">
-                        <div>
-                            <h3 class="qualification__title">Engenharia de Software</h3>
-                            <span class="qualification__subtitle">UCSAL - Universidade Católica do Salvador</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                07/2023 - 06/2027
-                            </div>
-                        </div>
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                    </div>
-                    <!--=============== QUALIFICATION 2 ===============-->
-                    <div class="qualification__data">
-                        <div></div>
-                        
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                        <div>
-                            <h3 class="qualification__title">Técnico em Desenvolvimento de Sistemas</h3>
-                            <span class="qualification__subtitle">SENAI - Serviço Nacional de Aprendizagem Industrial</span>
-                            <div class="qualification__calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                01/2022 - 06/2023
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--=============== SERVICES ===============-->
-
-    <!--=============== PORTFOLIO ===============-->
-
+	<!-- js -->
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
